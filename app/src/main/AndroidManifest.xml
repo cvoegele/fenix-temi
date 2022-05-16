@@ -38,6 +38,9 @@
         android:usesCleartextTraffic="true"
         tools:ignore="UnusedAttribute">
 
+        <meta-data
+            android:name="com.robotemi.sdk.metadata.SKILL"
+            android:value="@string/app_name" />
         <!--
           We inherited this entry (${applicationId}.App) from Fennec. We need to keep this as our
           main launcher to avoid launcher icons on the home screen disappearing for all our users.
